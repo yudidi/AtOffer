@@ -55,7 +55,7 @@ public class Model {
 	
 	//层次遍历和其他遍历的不同,就是思路描述中不存在"子树"这样的概念,不能使用递归.
 	static void printTreeFromTopToBottom(MyTreeNode root){
-		if (root.data == null) {
+		if (root == null) {
 			return;
 		}
 		Queue<MyTreeNode> container = new LinkedList<MyTreeNode>();
