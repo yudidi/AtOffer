@@ -74,7 +74,7 @@ public class Demo1 {
 	 * 
 	 * @return
 	 */
-	public static TreeNode CreateTreePreOrder2() {
+	public static TreeNode CreateTreePreOrder() {
 		// 输入是否#
 		// #则返回null节点
 		// 创建一个节点,赋值
