@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="359831e9-74ef-4712-8e8d-dab59bf4b124" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/机器人的运动范围/Solution.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/矩阵中的路径/Solution.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_20171212调整数组顺序使奇数位于偶数前面/Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_20171215链表中倒数第k个结点/Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/TestListAndNull.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/Test位运算.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/Test补码.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/_20171210Test右移运算.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/_20171210Test负数幂.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/二进制中1的个数/Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/从上往下打印二叉树/Demo1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/从上往下打印二叉树/Demo2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/从上往下打印二叉树/Model.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/从上往下打印二叉树/input.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/变态跳台阶/Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/数值的整数次方/Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/矩形覆盖/Solution.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/矩形覆盖/note-20171208" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/跳台阶/Solution.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/AtOffer.iml" afterPath="$PROJECT_DIR$/.idea/AtOffer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="359831e9-74ef-4712-8e8d-dab59bf4b124" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -703,7 +680,7 @@
       <option name="presentableId" value="Default" />
       <updated>1514346281287</updated>
       <workItem from="1514346284583" duration="831000" />
-      <workItem from="1514347392540" duration="10304000" />
+      <workItem from="1514347392540" duration="10347000" />
     </task>
     <servers />
   </component>
@@ -725,7 +702,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11135000" />
+    <option name="totallyTimeSpent" value="11178000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
