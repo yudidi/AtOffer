@@ -17,7 +17,7 @@ public class Solution {
             visited[i] = false;
         }
 
-        // 记录已经匹配的字符个数。
+        // 记录已匹配的路径长度
         int pathLength  = 0;
         // 以每个点为起始进行搜索
         for (int i = 0; i < rows; i++) {
