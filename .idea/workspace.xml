@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="359831e9-74ef-4712-8e8d-dab59bf4b124" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src2/sortingAlgorithm/BubbleSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/AtOffer.iml" afterPath="$PROJECT_DIR$/.idea/AtOffer.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src2/sortingAlgorithm/insertSort/InsertSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src2/sortingAlgorithm/test/TestUtils.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src2/sortingAlgorithm/ExchangeSort.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,12 +31,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src2/sortingAlgorithm/BubbleSort.java">
+      <file leaf-file-name="InsertSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src2/sortingAlgorithm/insertSort/InsertSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-591">
-              <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-              <folding />
+            <state relative-caret-position="560">
+              <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,6 +92,9 @@
         <option value="$PROJECT_DIR$/src/数字在排序数组中出现的次数/二分查找.java" />
         <option value="$PROJECT_DIR$/src2/sortingAlgorithm/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src2/sortingAlgorithm/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src2/sortingAlgorithm/exchangeSort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src2/sortingAlgorithm/test/TestUtils.java" />
+        <option value="$PROJECT_DIR$/src2/sortingAlgorithm/insertSort/InsertSort.java" />
       </list>
     </option>
   </component>
@@ -170,6 +175,54 @@
               <option name="myItemId" value="sortingAlgorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AtOffer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AtOffer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sortingAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="insertSort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AtOffer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AtOffer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sortingAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exchangeSort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -195,97 +248,19 @@
       <recent name="E:\idea_2016\AtOffer" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="false" name="二分查找.test循环" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="数字在排序数组中出现的次数.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="AtOffer" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="数字在排序数组中出现的次数" />
-      <option name="MAIN_CLASS_NAME" value="数字在排序数组中出现的次数.二分查找" />
-      <option name="METHOD_NAME" value="test循环" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="二分查找.test递归case1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="数字在排序数组中出现的次数.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="AtOffer" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="数字在排序数组中出现的次数" />
-      <option name="MAIN_CLASS_NAME" value="数字在排序数组中出现的次数.二分查找" />
-      <option name="METHOD_NAME" value="test递归case1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="BubbleSort.testBubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sortingAlgorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="AtOffer" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sortingAlgorithm" />
-      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.BubbleSort" />
-      <option name="METHOD_NAME" value="testBubbleSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.InsertSort">
     <configuration default="false" name="BubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="sortingAlgorithm.*" />
+          <option name="PATTERN" value="sortingAlgorithm.exchangeSort.BubbleSort" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="AtOffer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sortingAlgorithm" />
-      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.BubbleSort" />
+      <option name="PACKAGE_NAME" value="sortingAlgorithm.exchangeSort" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.exchangeSort.BubbleSort" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -300,19 +275,97 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="BubbleSort.testBubbleSortByEndToFront" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="InsertSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="sortingAlgorithm.*" />
+          <option name="PATTERN" value="sortingAlgorithm.insertSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="AtOffer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sortingAlgorithm" />
-      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.BubbleSort" />
-      <option name="METHOD_NAME" value="testBubbleSortByEndToFront" />
+      <option name="PACKAGE_NAME" value="sortingAlgorithm.insertSort" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.insertSort.InsertSort" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="InsertSort.testInsertSort2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sortingAlgorithm.insertSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="AtOffer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sortingAlgorithm.insertSort" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.insertSort.InsertSort" />
+      <option name="METHOD_NAME" value="testInsertSort2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="InsertSort.testInsertSort3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sortingAlgorithm.insertSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="AtOffer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sortingAlgorithm.insertSort" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.insertSort.InsertSort" />
+      <option name="METHOD_NAME" value="testInsertSort3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="InsertSort.testShellSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sortingAlgorithm.insertSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="AtOffer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sortingAlgorithm.insertSort" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.insertSort.InsertSort" />
+      <option name="METHOD_NAME" value="testShellSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -633,19 +686,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.二分查找.test循环" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.二分查找.test递归case1" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BubbleSort.testBubbleSort" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BubbleSort" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BubbleSort.testBubbleSortByEndToFront" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BubbleSort" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.InsertSort" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.InsertSort.testInsertSort2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.InsertSort.testInsertSort3" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.InsertSort.testShellSort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BubbleSort" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BubbleSort.testBubbleSortByEndToFront" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BubbleSort.testBubbleSort" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.二分查找.test循环" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.二分查找.test递归case1" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.InsertSort" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.InsertSort.testShellSort" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.InsertSort.testInsertSort3" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BubbleSort" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.InsertSort.testInsertSort2" />
       </list>
     </recent_temporary>
   </component>
@@ -674,44 +727,44 @@
       <workItem from="1515558655395" duration="1980000" />
       <workItem from="1515649927420" duration="6289000" />
       <workItem from="1515728559374" duration="3131000" />
-      <workItem from="1515825469042" duration="4172000" />
+      <workItem from="1515825469042" duration="18887000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BubbleSort - 2018.01.13 at 19h 30m 59s.xml">
+    <history-entry file="BubbleSort - 2018.01.14 at 17h 00m 07s.xml">
       <configuration name="BubbleSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BubbleSort - 2018.01.13 at 19h 33m 55s.xml">
-      <configuration name="BubbleSort" configurationId="JUnit" />
+    <history-entry file="InsertSort - 2018.01.14 at 16h 49m 03s.xml">
+      <configuration name="InsertSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BubbleSort - 2018.01.13 at 19h 53m 53s.xml">
-      <configuration name="BubbleSort" configurationId="JUnit" />
+    <history-entry file="InsertSort - 2018.01.14 at 16h 49m 37s.xml">
+      <configuration name="InsertSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BubbleSort_testBubbleSortByEndToFront - 2018.01.13 at 19h 49m 18s.xml">
-      <configuration name="BubbleSort.testBubbleSortByEndToFront" configurationId="JUnit" />
+    <history-entry file="InsertSort - 2018.01.14 at 19h 10m 41s.xml">
+      <configuration name="InsertSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectionSort - 2018.01.13 at 15h 44m 09s.xml">
-      <configuration name="SelectionSort" configurationId="JUnit" />
+    <history-entry file="InsertSort_testInsertSort3 - 2018.01.14 at 18h 38m 23s.xml">
+      <configuration name="InsertSort.testInsertSort3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectionSort - 2018.01.13 at 15h 44m 29s.xml">
-      <configuration name="SelectionSort" configurationId="JUnit" />
+    <history-entry file="InsertSort_testShellSort - 2018.01.14 at 18h 53m 48s.xml">
+      <configuration name="InsertSort.testShellSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectionSort - 2018.01.13 at 15h 45m 00s.xml">
-      <configuration name="SelectionSort" configurationId="JUnit" />
+    <history-entry file="InsertSort_testShellSort - 2018.01.14 at 18h 58m 14s.xml">
+      <configuration name="InsertSort.testShellSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SelectionSort - 2018.01.13 at 15h 47m 39s.xml">
-      <configuration name="SelectionSort" configurationId="JUnit" />
+    <history-entry file="InsertSort_testShellSort - 2018.01.14 at 19h 04m 23s.xml">
+      <configuration name="InsertSort.testShellSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="二分查找_test递归case1 - 2018.01.11 at 15h 01m 43s.xml">
-      <configuration name="二分查找.test递归case1" configurationId="JUnit" />
+    <history-entry file="InsertSort_testShellSort - 2018.01.14 at 19h 08m 26s.xml">
+      <configuration name="InsertSort.testShellSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="二分查找_test递归case1 - 2018.01.11 at 15h 02m 35s.xml">
-      <configuration name="二分查找.test递归case1" configurationId="JUnit" />
+    <history-entry file="InsertSort_testShellSort - 2018.01.14 at 19h 09m 05s.xml">
+      <configuration name="InsertSort.testShellSort" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48778000" />
+    <option name="totallyTimeSpent" value="63493000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -736,7 +789,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26041666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38020834" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -748,7 +801,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4340278" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -772,8 +825,14 @@
           <line>13</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src2/sortingAlgorithm/insertSort/InsertSort.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -782,7 +841,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src2/sortingAlgorithm/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src2/sortingAlgorithm/exchangeSort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1000,11 +1059,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src2/sortingAlgorithm/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src2/sortingAlgorithm/test/TestUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-591">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state relative-caret-position="120">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src2/sortingAlgorithm/exchangeSort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src2/sortingAlgorithm/insertSort/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
