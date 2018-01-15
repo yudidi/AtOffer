@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="359831e9-74ef-4712-8e8d-dab59bf4b124" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src2/sortingAlgorithm/mergeSort/MergeSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/AtOffer.iml" afterPath="$PROJECT_DIR$/.idea/AtOffer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src2/sortingAlgorithm/quickSort/QuickSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src2/sortingAlgorithm/test/TestUtils.java" afterPath="$PROJECT_DIR$/src2/sortingAlgorithm/test/TestUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src2/sortingAlgorithm/mergeSort/MergeSort.java" afterPath="$PROJECT_DIR$/src2/sortingAlgorithm/mergeSort/MergeSort.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,42 +29,7 @@
     <favorites_list name="AtOffer" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src2/sortingAlgorithm/mergeSort/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-480">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src2/sortingAlgorithm/test/TestUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_05/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="3276" column="24" lean-forward="false" selection-start-line="3276" selection-start-column="24" selection-end-line="3276" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,9 +42,11 @@
     <findStrings>
       <find>handledCount</find>
       <find> </find>
+      <find>mergeSort</find>
     </findStrings>
     <replaceStrings>
       <replace>pathLength</replace>
+      <replace>quickSort</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -122,8 +86,9 @@
         <option value="$PROJECT_DIR$/design_pattern/design/pattern/decorator/Tights.java" />
         <option value="$PROJECT_DIR$/design_pattern/design/pattern/decorator/Main.java" />
         <option value="$PROJECT_DIR$/src2/sortingAlgorithm/mergeSort/Test.java" />
-        <option value="$PROJECT_DIR$/src2/sortingAlgorithm/mergeSort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src2/sortingAlgorithm/test/TestUtils.java" />
+        <option value="$PROJECT_DIR$/src2/sortingAlgorithm/mergeSort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src2/sortingAlgorithm/quickSort/QuickSort.java" />
       </list>
     </option>
   </component>
@@ -179,6 +144,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,15 +195,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="quickSort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AtOffer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AtOffer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sortingAlgorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="mergeSort" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,20 +242,20 @@
       <recent name="E:\idea_2016\AtOffer" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MergeSort.testMergeSort">
-    <configuration default="false" name="MergeSort.merge(int[], int, int, int) (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.QuickSort.testQuickSort">
+    <configuration default="false" name="QuickSort.testQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="sortingAlgorithm.mergeSort.*" />
+          <option name="PATTERN" value="sortingAlgorithm.quickSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="AtOffer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sortingAlgorithm.mergeSort" />
-      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.mergeSort.MergeSort" />
-      <option name="METHOD_NAME" value="merge(int[], int, int, int)" />
+      <option name="PACKAGE_NAME" value="sortingAlgorithm.quickSort" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.quickSort.QuickSort" />
+      <option name="METHOD_NAME" value="testQuickSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -282,19 +269,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MergeSort.merge(int[], int, int, int) (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="QuickSort.testSwapBug" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="sortingAlgorithm.mergeSort.*" />
+          <option name="PATTERN" value="sortingAlgorithm.quickSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="AtOffer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sortingAlgorithm.mergeSort" />
-      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.mergeSort.MergeSort" />
-      <option name="METHOD_NAME" value="merge(int[], int, int, int)" />
+      <option name="PACKAGE_NAME" value="sortingAlgorithm.quickSort" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.quickSort.QuickSort" />
+      <option name="METHOD_NAME" value="testSwapBug" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -308,19 +295,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MergeSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="QuickSort.testSwapBug1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="sortingAlgorithm.mergeSort.*" />
+          <option name="PATTERN" value="sortingAlgorithm.quickSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="AtOffer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sortingAlgorithm.mergeSort" />
-      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.mergeSort.MergeSort" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="sortingAlgorithm.quickSort" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.quickSort.QuickSort" />
+      <option name="METHOD_NAME" value="testSwapBug1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -334,19 +321,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MergeSort.testMergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="QuickSort.testSwapBug11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="sortingAlgorithm.mergeSort.*" />
+          <option name="PATTERN" value="sortingAlgorithm.quickSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="AtOffer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sortingAlgorithm.mergeSort" />
-      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.mergeSort.MergeSort" />
-      <option name="METHOD_NAME" value="testMergeSort" />
+      <option name="PACKAGE_NAME" value="sortingAlgorithm.quickSort" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.quickSort.QuickSort" />
+      <option name="METHOD_NAME" value="testSwapBug11" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -360,20 +347,20 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MergeSort.testChangeIntArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="QuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="sortingAlgorithm.mergeSort.*" />
+          <option name="PATTERN" value="sortingAlgorithm.quickSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="AtOffer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sortingAlgorithm.mergeSort" />
-      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.mergeSort.MergeSort" />
-      <option name="METHOD_NAME" value="testChangeIntArray" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="sortingAlgorithm.quickSort" />
+      <option name="MAIN_CLASS_NAME" value="sortingAlgorithm.quickSort.QuickSort" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -693,19 +680,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MergeSort.merge(int[], int, int, int) (1)" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MergeSort.merge(int[], int, int, int) (2)" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MergeSort.test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MergeSort.testMergeSort" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MergeSort.testChangeIntArray" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.QuickSort.testQuickSort" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.QuickSort.testSwapBug" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.QuickSort.testSwapBug1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.QuickSort.testSwapBug11" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.QuickSort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MergeSort.testMergeSort" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MergeSort.testChangeIntArray" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MergeSort.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MergeSort.merge(int[], int, int, int) (2)" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MergeSort.merge(int[], int, int, int) (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.QuickSort.testQuickSort" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.QuickSort" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.QuickSort.testSwapBug11" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.QuickSort.testSwapBug1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.QuickSort.testSwapBug" />
       </list>
     </recent_temporary>
   </component>
@@ -735,44 +722,45 @@
       <workItem from="1515649927420" duration="6289000" />
       <workItem from="1515728559374" duration="3131000" />
       <workItem from="1515825469042" duration="19782000" />
-      <workItem from="1515988161123" duration="5068000" />
+      <workItem from="1515988161123" duration="8873000" />
+      <workItem from="1516008515924" duration="6023000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MergeSort_testChangeIntArray - 2018.01.15 at 13h 01m 08s.xml">
-      <configuration name="MergeSort.testChangeIntArray" configurationId="JUnit" />
+    <history-entry file="QuickSort - 2018.01.15 at 18h 58m 39s.xml">
+      <configuration name="QuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort_testChangeIntArray - 2018.01.15 at 13h 03m 03s.xml">
-      <configuration name="MergeSort.testChangeIntArray" configurationId="JUnit" />
+    <history-entry file="QuickSort_testQuickSort - 2018.01.15 at 18h 36m 56s.xml">
+      <configuration name="QuickSort.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort_testChangeIntArray - 2018.01.15 at 13h 05m 36s.xml">
-      <configuration name="MergeSort.testChangeIntArray" configurationId="JUnit" />
+    <history-entry file="QuickSort_testQuickSort - 2018.01.15 at 18h 43m 45s.xml">
+      <configuration name="QuickSort.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort_testChangeIntArray - 2018.01.15 at 13h 08m 16s.xml">
-      <configuration name="MergeSort.testChangeIntArray" configurationId="JUnit" />
+    <history-entry file="QuickSort_testQuickSort - 2018.01.15 at 18h 46m 14s.xml">
+      <configuration name="QuickSort.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort_testChangeIntArray - 2018.01.15 at 13h 10m 48s.xml">
-      <configuration name="MergeSort.testChangeIntArray" configurationId="JUnit" />
+    <history-entry file="QuickSort_testQuickSort - 2018.01.15 at 18h 46m 15s.xml">
+      <configuration name="QuickSort.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort_testMergeSort - 2018.01.15 at 12h 52m 44s.xml">
-      <configuration name="MergeSort.testMergeSort" configurationId="JUnit" />
+    <history-entry file="QuickSort_testQuickSort - 2018.01.15 at 18h 46m 16s.xml">
+      <configuration name="QuickSort.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort_testMergeSort - 2018.01.15 at 13h 00m 09s.xml">
-      <configuration name="MergeSort.testMergeSort" configurationId="JUnit" />
+    <history-entry file="QuickSort_testQuickSort - 2018.01.15 at 18h 59m 08s.xml">
+      <configuration name="QuickSort.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort_testMergeSort - 2018.01.15 at 13h 12m 55s.xml">
-      <configuration name="MergeSort.testMergeSort" configurationId="JUnit" />
+    <history-entry file="QuickSort_testSwapBug - 2018.01.15 at 18h 47m 00s.xml">
+      <configuration name="QuickSort.testSwapBug" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort_testMergeSort - 2018.01.15 at 13h 13m 50s.xml">
-      <configuration name="MergeSort.testMergeSort" configurationId="JUnit" />
+    <history-entry file="QuickSort_testSwapBug1 - 2018.01.15 at 18h 48m 04s.xml">
+      <configuration name="QuickSort.testSwapBug1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSort_testMergeSort - 2018.01.15 at 13h 14m 57s.xml">
-      <configuration name="MergeSort.testMergeSort" configurationId="JUnit" />
+    <history-entry file="QuickSort_testSwapBug11 - 2018.01.15 at 18h 50m 38s.xml">
+      <configuration name="QuickSort.testSwapBug11" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69456000" />
+    <option name="totallyTimeSpent" value="79284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -784,8 +772,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -802,7 +790,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16263238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16490166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2530303" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -833,8 +821,20 @@
           <line>13</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src2/sortingAlgorithm/quickSort/QuickSort.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src2/sortingAlgorithm/quickSort/QuickSort.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -843,6 +843,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src2/sortingAlgorithm/quickSort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src2/sortingAlgorithm/exchangeSort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1048,9 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="89" column="6" lean-forward="false" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1058,7 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1066,7 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
           <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1074,7 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1082,7 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1090,7 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,7 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,7 +1123,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src2/sortingAlgorithm/test/TestUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
+        <state relative-caret-position="160">
           <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding />
         </state>
@@ -1130,18 +1133,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="3276" column="24" lean-forward="false" selection-start-line="3276" selection-start-column="24" selection-end-line="3276" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src2/sortingAlgorithm/mergeSort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-480">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state relative-caret-position="240">
+          <caret line="77" column="34" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="77" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src2/sortingAlgorithm/quickSort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
           </folding>
         </state>
       </provider>

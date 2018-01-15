@@ -46,30 +46,33 @@ public class MergeSort {
             }
         }
         //把临时数组的值拷贝到原来的数组.
-//        arr = Arrays.copyOf(temp, temp.length); //bug
-        for (int i = 0; i < temp.length; i++) {
+//        arr = Arrays.copyOf(temp, temp.length); //bug //Arrays.copyOf是拷贝引用
+        for (int i = 0; i < temp.length; i++) {//correct: for循环逐个拷贝每一个元素.
             arr[i] = temp[i];
         }
     }
 
     @Test
     public void testMergeSort() {
+        //功能测试
         int[] arr = {4, 3, 2, 1};
         TestUtils.printArray(arr);
         mergeSort(arr, arr.length);
         TestUtils.printArray(arr);
 
+        arr = new int[]{3,3,2,1,1};
+        TestUtils.printArray(arr);
+        mergeSort(arr, arr.length);
+        TestUtils.printArray(arr);
+
+        //边界测试
         arr = new int[]{1};
         TestUtils.printArray(arr);
         mergeSort(arr, arr.length);
         TestUtils.printArray(arr);
 
+        //特殊输入测试
         arr = new int[]{};
-        TestUtils.printArray(arr);
-        mergeSort(arr, arr.length);
-        TestUtils.printArray(arr);
-
-        arr = new int[]{3,3,2,1,1};
         TestUtils.printArray(arr);
         mergeSort(arr, arr.length);
         TestUtils.printArray(arr);
@@ -87,10 +90,10 @@ public class MergeSort {
     @Test
     public void testChangeIntArray() {
         int[] arr = {1, 2, 3};
-        System.out.println("使用Arrays.copyOf修改数组,无效");
+        System.out.println("使用Arrays.copyOf复制数组,无效");
         changeIntArray1(arr);
         TestUtils.printArray(arr);
-        System.out.println("使用arr[i]挨个修改数组元素,有效");
+        System.out.println("使用arr[i]复制数组元素,有效");
         changeIntArray2(arr);
         TestUtils.printArray(arr);
     }
