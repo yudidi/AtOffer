@@ -28,32 +28,36 @@ public class QuickSort {
     mark: 哨兵. 数组第一个元素.
     big: 表示较大部分的第一个元素.  注意,我们并不需要一个指向较小部分的指针,仍然可以在处理全部元素后,通过swap(l,big-1)把哨兵的放在正确位置. [小][哨兵][大]
     big-1: 较小部分的最后一个元素.
-
      */
     public int partition(int[] arr, int l, int r) {
+        /*
+        循环不变量: 说不清楚...
+        p:
+        firstBig:
+         */
         int p = -1;
         int mark = arr[l];
-        int big = -1; //big:较大部分的第一个元素
+        int firstBig = -1; //big:较大部分的第一个元素
         for (int i = l + 1; i <= r; i++) {
             if (arr[i] > mark) {
-                if (big == -1) {
-                    big = i;
+                if (firstBig == -1) {//说明arr[i]是第一个大于哨兵的元素.
+                    firstBig = i;
                 }
             } else {
-                if (big != -1) {
+                if (firstBig != -1) {//arr[i]与firstBig交换前,要检查是否存在大于哨兵的元素,
                     //swap(arr[i],arr[big]
-                    swap(arr, i, big);
+                    swap(arr, i, firstBig);//arr[i]和firstBig交换.
                     //大指针前进一格
-                    big = big + 1;
+                    firstBig = firstBig + 1;
                 }
             }
         }
-        if (big == -1) {
+        if (firstBig == -1) {//全部比哨兵小
             swap(arr, l, r);
             p = r;
         } else {
-            swap(arr, l, big - 1);
-            p = big - 1;
+            swap(arr, l, firstBig - 1);
+            p = firstBig - 1;
         }
         return p;
     }
