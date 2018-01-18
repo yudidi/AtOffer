@@ -8,7 +8,9 @@ import java.util.List;
  */
 public class MaxHeap<E extends Comparable<E>> {
 
-    //data[1..count]作为堆的存储结构.
+    /**
+     * data[1..count]用于存放堆中元素. //使得==>元素在存储结构中的索引==元素在逻辑结构中的编号(按层次编号)
+     */
     private List<E> data;
     /**
      * 堆中存在的元素个数.
@@ -21,6 +23,32 @@ public class MaxHeap<E extends Comparable<E>> {
         this.count = 0;
         this.data.add(null);
     }
+
+    /*
+    传入一个数组,构造成堆.
+     */
+    public MaxHeap(List<E> arr,int n){
+        this.data = new ArrayList<E>(n+1);
+        this.data.add(null);
+        this.data.addAll(arr);
+        this.count = n;
+
+        for (int i = count/2; i >=1 ; i--) {//i: 当前考察的非叶子节点.
+            //shiftDown
+            int j = i;
+            while (2*j<=count){
+                int big = 2 * j;
+                if (big+1<=count && data.get(big+1).compareTo(data.get(big))>0){
+                    big = big +1;
+                }
+                if (data.get(j).compareTo(data.get(big))>=0)
+                    break;
+                swapByTmp(j,big);
+                j = big;
+            }
+        }
+    }
+
 
     public int size() {
         return count;
