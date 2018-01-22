@@ -41,6 +41,7 @@ public class Solution {
     }
 
     /*
+    cur: 本次函数中,需要解码的元素索引.
     pre: digits[0..cur-1]解码结果.
     r: 存放digits[0..n-1]解码的结果
     //把digits[cur..n-1]解码连接到pre后,放入r中.
