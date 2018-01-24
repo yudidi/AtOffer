@@ -7,13 +7,13 @@ import java.util.List;
  */
 
 /*
-思路2:
+思路2: 交换
 
  */
 public class Solution2 {
 
     public List<String> permutation(int[] arr, int n) {
-
+        return null;
     }
 }
 

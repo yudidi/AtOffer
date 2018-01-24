@@ -1,4 +1,4 @@
-package _200;
+package backtracking.leetcode._200;
 
 import org.junit.jupiter.api.Test;
 
