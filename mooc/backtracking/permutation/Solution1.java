@@ -39,10 +39,10 @@ public class Solution1 {
             r.add(p);
             return;
         }
-        for (int i = 0; i < n ; i++) {
-            if (!used[i]){
-                used[i] =true;
-                core(arr,n,p+arr[i],r);
+        for (int i = 0; i < n; i++) {
+            if (!used[i]) {
+                used[i] = true;
+                core(arr, n, p + arr[i], r);
                 used[i] = false;
             }
         }

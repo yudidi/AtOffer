@@ -29,7 +29,7 @@ public class Solution {
     /*
      // p: 已有的排列
      // r:存放最终排列的结果
-     从候选数容器,选择一个数,放入已有排列容器.
+     从候选数容器 (arr[0..n].select(not used)) ,选择一个数,放入已有排列容器p.
      */
     void core(int[] arr, int n, String p, List<String> r) {
         if (p.length() == n) {
@@ -39,7 +39,7 @@ public class Solution {
         for (int i : arr) {
             System.out.println("p:" + p + "  c:" + i + "  isUsed(p, i):" + isUsed(p, i));
             if (isUsed(p, i) == false) {
-                core(arr, n, p + i, r);
+                core(arr, n, p + i, r);//候选数减一个,已选数加一.
             }
         }
     }
