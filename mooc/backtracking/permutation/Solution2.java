@@ -11,9 +11,6 @@ import java.util.stream.Collectors;
  * Created by didi on 24/01/2018.
  */
 
-/*
-思路2: 从前往后,尝试每次位置的所有情况. 每个函数处理一个位置.
- */
 public class Solution2 {
 
     public List<String> permutation(int[] arr, int n) {
@@ -21,19 +18,22 @@ public class Solution2 {
         core(arr, 0, r);
         return r;
     }
-
     //TODO
-    //不需要借助外部空间
-    //思路: 处理cur位置的所有选择. [0..cur-1]处理过的位置,[cur..n-1]是没有处理过的位置
+    /*
+         //不需要借助外部空间
+    # 思路:
+       处理cur位置的所有选择.
+       arr[0..cur-1]已选择的数, arr[cur..n-1]未选择的数
+     */
     public void core(int[] arr, int cur, List<String> r) {
         if (cur == arr.length - 1) {
 //            r.add(Arrays.toString(arr));
             r.add(Arrays.stream(arr).boxed().map(i -> i.toString()) //必须将普通数组 boxed才能 在 map 里面 toString //lambda
                     .collect(Collectors.joining("")));
         }
-        for (int i = cur; i < arr.length; i++) {
+        for (int i = cur; i < arr.length; i++) {//处理cur位置的所有选择
             swap(arr, i, cur);
-            core(arr, cur + 1, r);
+            core(arr, cur + 1, r);//[0..cur+1-1]已选择的数 ,[cur+1..n-1]候选的数.
             swap(arr, i, cur);
         }
     }
