@@ -1,5 +1,4 @@
-package test.utils;
-
+package common;
 /**
  * Created by didi on 25/01/2018.
  */
@@ -9,11 +8,11 @@ public class TreeNode<T> {
     public TreeNode left;
     public TreeNode right;
 
-    TreeNode(){
+    public TreeNode(){
 
     }
 
-    TreeNode(T x) {
+    public TreeNode(T x) {
         this.val = x;
     }
 }

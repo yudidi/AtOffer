@@ -1,9 +1,7 @@
 package 树的子结构;
 
-import test.utils.TreeNode;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import common.TreeNode;
 
 /*
 # 题意:
@@ -32,7 +30,7 @@ A: [1] [2] [3]  [1,2] [2,3] [1,3(right)] [1,2,3]
 2. 判断cur为根的子树和B为根的树的全部节点是否相等. => 递归判断cur左子树 值等 B.左子树.
 
 # 函数签名
-f1: boolean HasSubtree(test.utils.TreeNode root1, test.utils.TreeNode root2), 判断root2是否是root1的子结构
+f1: boolean HasSubtree(TreeNode root1, TreeNode root2), 判断root2是否是root1的子结构
 f2: boolean Equals(node1,node2), 判断两颗树是否值相等
 
 # 时间复杂度

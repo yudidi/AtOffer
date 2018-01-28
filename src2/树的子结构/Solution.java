@@ -1,7 +1,7 @@
 package 树的子结构;
 
+import common.TreeNode;
 import org.junit.jupiter.api.Test;
-import test.utils.TreeNode;
 import test.utils.TreeUtils;
 
 import java.util.LinkedList;
@@ -26,7 +26,7 @@ Q4: A: [1,2,3]  B1:[1], B2:[2], B1,B2中存在A的子结构吗?
 2. 判断cur为根的子树和B为根的树的全部节点是否相等. => 递归判断cur左子树 值等 B.左子树.
 
 # 函数签名
-f1: boolean HasSubtree(test.utils.TreeNode root1, test.utils.TreeNode root2), 判断root2是否是root1的子结构
+f1: boolean HasSubtree(TreeNode root1, TreeNode root2), 判断root2是否是root1的子结构
 f2: boolean Equals(node1,node2), 判断两颗树是否值相等
 
 # 时间复杂度
