@@ -27,7 +27,7 @@ public class TreeUtils {
     }
 
     //打印二叉树
-    public void printTreePreOrder(TreeNode root) {
+    public static void printTreePreOrder(TreeNode root) {
         if (root != null) {
             System.out.print(root.val + ",");
             printTreePreOrder(root.left);
